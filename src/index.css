@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;605;700;800&family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-dojo-teal: #3CEAC7;
+  --color-dojo-green: #003F33;
+  --color-dojo-darkgreen: #002D24;
+  --color-dojo-mellow: #196254;
+  --color-dojo-optimistic: #2BA68D;
+  --color-dojo-fresh: #C3F9EE;
+  --color-dojo-white: #F1F1EC;
+  --color-dojo-mist: #E0E0DC;
+  --color-dojo-stone: #8E8A85;
+  --color-dojo-black: #180F06;
+}
+
+@layer base {
+  body {
+    @apply font-sans antialiased bg-[#F1F1EC] text-[#180F06];
+  }
+}

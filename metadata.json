@@ -1,0 +1,6 @@
+{
+  "name": "Dojo Intelligence Insights Agent",
+  "description": "An internal AI assistant for Dojo account managers to analyse payments data from curated dbt BigQuery models and generate validated client-ready narratives.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
